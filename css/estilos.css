@@ -1,0 +1,304 @@
+body{
+font-family: "Dancing Script";
+margin:10px;
+padding:0;
+background-color: #82c3a6}
+
+@media (min-width : 896px ){
+  #contenido {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:column;
+  }
+
+  #cabecera{
+    width: 100%;
+    padding-top: 5%;
+    height: 70px;
+	  background: -webkit-linear-gradient(left, #5b7989, #55dedf); /* Safari */
+	  background: -o-linear-gradient(right, #5b7989, #55dedf); /* Opera */
+	  background: -moz-linear-gradient(right, #5b7989, #55dedf); /* Firefox */
+	  background: linear-gradient(to right, #5b7989, #55dedf); /* Todos */
+    border-radius: 10px 10px 0 0;
+    padding: 1vh 0vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  #titulo {
+    font-size: 100%;
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    margin-left: 1%;
+  }
+  #menutitulo {
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    margin-right: 2%;
+  }
+
+  .menu {
+    font-family: "Dancing Script";
+    font-size: 23px;
+    text-decoration: none;
+    padding-left: 400px;
+  }
+
+  nav li{
+    display: inline-block;
+  }
+
+  #fotografias{
+           margin: 1%;
+           margin-bottom: 0;
+  }
+
+  #imagen1 img{
+    width: 75%;
+    border: solid 2px #02010a;
+  }
+  .Fotografia2 {
+	   display: flex;
+	   flex-direction: row;
+     text-align: center;
+     background-color: #d5c75f;
+     border: solid 1px #02010a;
+  }
+  #imagen2 img{
+    transition-property: rotate;
+    transition-duration: 1s;
+    box-shadow:4px 4px #82c3a6;
+    border: solid 2px black;
+    width: 50%;
+  }
+  #imagen2 img:hover{
+    -ms-transform: rotate(10deg); /* IE 9 */
+	  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+  }
+  #imagen3 img{
+    box-shadow:4px 4px #82c3a6;
+    border: solid 2px #02010a;
+    width: 50%;
+  }
+  #imagen3 img:hover{
+    transform: translate(20px,-5px);
+  }
+  footer{
+    border-radius: 0 0 10px 10px;
+    background: #C6d5c5;
+    display: flex;
+    flex-flow:row;
+    margin-bottom: auto;
+  }
+  footer>article{
+    text-align: center;
+    flex: 0 0 25%;
+  }
+  footer>article>div{
+    text-align: left;
+    padding-left: 10px;
+  }
+  footer>article>div img{
+    border-radius: 50%;
+    width: 35px;
+    height: auto;
+  }
+  #redes img {
+    width: 17px;
+  }
+
+  #paisajes0 figure:{margin: 0; padding: 0;}
+  #paisajes0 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      background-color: #d5c75f;
+  }
+  #paisajes00 {
+    width: 100%;
+     display: flex;
+     flex-direction: row;
+     background-color: #d5c75f;
+  }
+  #retratos0 figure:{margin: 0; padding: 0;}
+  #retratos0 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      background-color: #d5c75f;
+  }
+  #retratos00 {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     background-color: #d5c75f;
+  }
+  #imag1 #imag2 #imag3 figure{
+    margin: 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  #contenido {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    -webkit-animation: celular 0.4s; /*Safari*/
+    animation: celular 0.4s;
+  }
+
+  @-webkit-keyframes celular { /* Safari*/
+    0%  {top: 1000px;}
+    10% {top: 900px;}
+    20% {top: 800px;}
+    30% {top: 700px;}
+    40% {top: 600px;}
+    50% {top: 500px;}
+    60% {top: 400px;}
+    70% {top: 300px;}
+    80% {top: 200px;}
+    90% {top: 100px;}
+    100% {top: 0px;}
+  }
+
+  @keyframes celular {
+    0%  {top: 1000px;}
+    10% {top: 900px;}
+    20% {top: 800px;}
+    30% {top: 700px;}
+    40% {top: 600px;}
+    50% {top: 500px;}
+    60% {top: 400px;}
+    70% {top: 300px;}
+    80% {top: 200px;}
+    90% {top: 100px;}
+    100% {top: 0px;}
+  }
+
+  header {
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: center;
+	  background: -webkit-linear-gradient(left, #5b7989, #55dedf); /*Safari*/
+	  background: -o-linear-gradient(right, #5b7989, #55dedf); /*Opera*/
+	  background: -moz-linear-gradient(right, #5b7989, #55dedf); /*Firefox*/
+	  background: linear-gradient(to right, #5b7989, #55dedf); /*Todos*/
+    border-radius: 10px 10px 0 0;
+    padding: 1vh 0vw;
+    }
+
+  header h1{
+    font-size: 100%;
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    text-align: center;
+  }
+  nav{
+    font-family: "Dancing Script";
+    font-size: 100%;
+    text-align: center;
+  }
+  nav li{
+      display: inline-block;
+  }
+
+  #imagen1 img{
+    width: 100%;
+    border: solid 2px #02010a;
+    order: 0;
+  }
+  .Fotografia2 {
+	   background-color: #d5c75f;
+     border: solid 1px black;
+  }
+  #imagen2 img{
+    transition-property: rotate;
+    transition-duration: 1s;
+    box-shadow:4px 4px #82c3a6;
+    border: solid 2px #02010a;
+    width: 100%;
+  }
+  #imagen2 img:hover{
+    -ms-transform: rotate(10deg); /*IE*/
+	  -webkit-transform: rotate(10deg); /*Chrome,Safari,Opera*/
+    transform: rotate(10deg);
+  }
+  #imagen3 img{
+    box-shadow:4px 4px #82c3a6;
+    border: solid 2px #02010a;
+    width: 100%;
+  }
+  #imagen3 img:hover{
+    transform: translate(20px,-5px);
+  }
+  #contacto{
+     width: 95% !important;
+     order: 0;
+   }
+   #terminos{
+     width: 95% !important;
+     float: left;
+     padding-left: 5%;
+     order: 1;
+   }
+   #redes{
+     width: 95% !important;
+     float: left;
+     padding-left: 5%;
+     order: 2;
+   }
+   #derechos{
+     width: 95% !important;
+     float: left;
+     padding-left: 5%;
+     order: 3;
+   }
+
+  footer{
+    border-radius: 0 0 10px 10px;
+    background: #C6d5c5;
+    text-align: center;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  #redes1 img {
+    width: 17px;
+  }
+}
+
+#fotospaisajes img{
+  border: solid 2px #02010a;
+}
+#fotosretratos img{
+  border: solid 2px #02010a;
+}
+#imag1 img{
+  @-webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+#imag2 img{
+  @-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imag3 img{
+  @-webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+#imag11 img{
+  @-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imag33 img{
+  @-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
